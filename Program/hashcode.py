@@ -18,6 +18,7 @@ def generate_moutai_hash(date, place, special_id):
 
 # Generate a QR code 
 qr = qrcode.QRCode(version=1, box_size=10, border=5)
+#HEllO
 
 # Add the data to the QR code
 qr.add_data(data)
